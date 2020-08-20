@@ -1,0 +1,26 @@
+/*
+    Style made by leandro.ccq06
+*/
+
+._2-aNW {
+    background-image: url("chrome-extension://__MSG_@@extension_id__/images/wallpaper.jpg");
+    background-position-x: center;
+    background-position-y: top;
+}
+
+
+/* @media (prefers-color-scheme: light) { */
+
+
+/* #botaoConversas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 121;
+}
+
+@media only screen and (max-width: 650px) {
+    ._1xXdX {
+        width: 5vw !important;
+    }
+} */
