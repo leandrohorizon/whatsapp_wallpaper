@@ -1,15 +1,18 @@
 {
-    "manifest_version": 2,
-    "name": "WhatsApp Dark Mode",
-    "version": "1",
-    "web_accessible_resources": [
-        "images/wallpaper.jpg"
-    ],
-    "content_scripts": [{
-        "matches": [
-            "https://web.whatsapp.com/*"
-        ],
-        "js": ["content.js"],
-        "css": ["whatsapp.css"]
-    }]
+  "manifest_version": 2,
+  "name": "WhatsApp Wallpaper",
+  "version": "1",
+  "web_accessible_resources": [
+    "images/wallpaper.jpg"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "css": [
+        "whatsapp.css"
+      ]
+    }
+  ]
 }
