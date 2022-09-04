@@ -1,10 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "WhatsApp Wallpaper",
   "version": "1",
-  "web_accessible_resources": [
-    "images/wallpaper.jpg"
-  ],
+  "web_accessible_resources": [{
+    "resources": ["images/wallpaper.jpg"],
+    "matches": ["https://web.whatsapp.com/*"]
+  }],
   "content_scripts": [
     {
       "matches": [
